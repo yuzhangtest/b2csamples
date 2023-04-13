@@ -134,7 +134,7 @@
         </InputClaims>
         <InputParameters>
           <InputParameter Id="item" DataType="string" Value="mfa" />
-          <InputParameter Id="ignoreCase" DataType="string" Value="false" />
+          <InputParameter Id="ignoreCase" DataType="string" Value="true" />
         </InputParameters>
         <OutputClaims>
           <OutputClaim ClaimTypeReferenceId="CAChallengeIsMfa" TransformationClaimType="outputClaim" />
